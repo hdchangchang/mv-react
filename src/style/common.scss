@@ -1,0 +1,50 @@
+// 设计稿宽带
+$base-w: 750; 
+// 设置html的font-size为100px
+$base-fz: 100;
+
+// $html-fz: 100*$base-fz/$base-w; 这里计算错误
+
+
+html{
+  font-size: 13.333vw
+}
+
+body{
+  -webkit-text-size-adjust: none; //禁止用户文字缩放
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li{
+  list-style: none;
+}
+
+input,a{
+  // 去除按下的默认样式
+  -webkit-tap-highlight-color: none;
+  -webkit-appearance: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.svg-icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+  color: #999;
+}
+
+header{
+  font-size: 0.6rem;
+  height: .9rem;
+}
+
